@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Такара</title>
+    <link rel="icon" href="img/logo1.svg">
+    <link rel="stylesheet" href="#sources/fonts.css">
+    <link rel="stylesheet" href="icofont/icofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="#sources/bootstrap-reboot.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- ШАПКА -->
+<header class="header">
+    <div class="header__wrap">
+        <div class="header__logo"></div>
+        <div class="header__vertLine"></div>
+        <ul class="menu">
+            <li><a href="#" class="menu__item">Главная</a></li>
+            <li><a href="#" class="menu__item">Акции и скидки</a></li>
+            <li><a href="#" class="menu__item">Условия доставки</a></li>
+            <li><a href="#" class="menu__item">Вакансии</a></li>
+            <li><a href="#" class="menu__item">Контакты</a></li>
+        </ul>
+        <div class="header__vertLine"></div>
+        <div class="ourNumber ourNumber_margin ourNumber_header">
+                <div class="ourNumber__image">
+                    <i class="icon-phone"></i>
+                </div>
+            <div class="ourNumber__wrap">
+                <p class="ourNumber__number">+7 (8425) 460-460</p>
+                <p class="ourNumber__hours">Ежедневно с 10:00 до 23:00</p>
+            </div>
+        </div>
+        <div class="header__vertLine"></div>
+        <div class="socialLinks socialLinks_header">
+            <a href="#" class="socialLinks__item">
+                <i class="icon-tg"></i>
+            </a>
+            <a href="#" class="socialLinks__item">
+                <i class="icon-ok"></i>
+            </a>
+            <a href="#" class="socialLinks__item">
+                <i class="icon-vk"></i>
+            </a>
+        </div>
+        <div class="header__vertLine"></div>
+        <div class="profileCart">
+            <div class="profileCart__profile">
+                <i class="icon-profile"></i>
+            </div>
+            <div class="header__vertLine"></div>
+            <div class="profileCart__cart">
+                <i class="icon-cart"></i>
+                <div class="profileCart__quantity">3</div>
+            </div>
+        </div> 
+    </div>
+</header>
+   <!--  БОКОВОЕ МЕНЮ -->
+<div class="container">
+    <nav class="products">
+        <div class="products__item">
+            <img src="img/products/pizza.png" alt="pizza" width="64" height="64" class="products__image"></img>
+            <div class="products__text">Пицца</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/hot-meal.png" alt="hot meal" width="64" height="43" class="products__image"></img>
+            <div class="products__text">Горячие блюда</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/rolls.png" alt="rolls" width="64" height="53" class="products__image"></img>
+            <div class="products__text">Роллы</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/hot-rolls.png" alt="hot rolls" width="64" height="53" class="products__image"></img>
+            <div class="products__text">Горячие блюда</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/sets.png" alt="sets&kidbox" width="64" height="55" class="products__image"></img>
+            <div class="products__text">Сеты </div>
+            <div class="products__vertLine"></div>
+            <div class="products__text">Kids Box</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/sushi.png" alt="sushi" width="64" height="64" class="products__image"></img>
+            <div class="products__text">Суши</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/salads.png" alt="salads" width="64" height="38" class="products__image"></img>
+            <div class="products__text">Салаты и закуски</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/desserts.png" alt="desserts" width="64" height="50" class="products__image"></img>
+            <div class="products__text">Десерты</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/souses.png" alt="souses" width="64" height="64" class="products__image"></img>
+            <div class="products__text">Специи</div>
+            <div class="products__vertLine"></div>
+            <div class="products__text">Напитки</div>
+        </div>
+        <div class="products__horLine"></div>
+        <div class="products__item">
+            <img src="img/products/b-lunch.png" alt="b-lunch" width="64" height="55" class="products__image"></img>
+            <div class="products__text">Бизнес-ланчи</div>
+        </div>
+    </nav>
+        <!-- БЛОК СО СВАЙПЕРОМ И ПОДВАЛОМ -->
+    <div class="main">
+            <!-- СВАЙПЕР -->
+        <div class="swiper swiperPage">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="swiperPage__wrap">
+                        <h1 class="swiperPage__title">Порция роллов или картошка фри <span>в подарок</span></h1>
+                        <div class="swiperPage__horLine"></div>
+                        <p class="swiperPage__subtitle">за любой заказ от 1 500 &#x20bd;</p>
+                        <a href="#" class="swiperPage__button">Подробнее</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide2">
+                    <div class="swiperPage__wrap">
+                        <h1 class="swiperPage__title">Порция роллов или картошка фри <span>в подарок</span></h1>
+                        <div class="swiperPage__horLine"></div>
+                        <p class="swiperPage__subtitle">за любой заказ от 1 500 &#x20bd;</p>
+                        <a href="#" class="swiperPage__button">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+            <!-- ПОДВАЛ -->
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__wrap">
+                    <div class="footer__info">
+                        <div class="footer__svg"></div>
+                        <div class="footer__columns">
+                            <ul class="footer__column-item">
+                                <li class="footer__item"><a href="#">Пицца</a></li>
+                                <li class="footer__item"><a href="#">Горячие блюда</a></li>
+                                <li class="footer__item"><a href="#">Супы</a></li>
+                                <li class="footer__item"><a href="#">Хосомаки</a></li>
+                                <li class="footer__item"><a href="#">Урамаки</a></li>
+                                <li class="footer__item"><a href="#">Футомаки</a></li>
+                            </ul>
+                            <ul class="footer__column-item">
+                                <li class="footer__item"><a href="#">Жаренные роллы</a></li>
+                                <li class="footer__item"><a href="#">Запеченные роллы</a></li>
+                                <li class="footer__item"><a href="#">Сеты</a></li>
+                                <li class="footer__item"><a href="#">Kids Box</a></li>
+                                <li class="footer__item"><a href="#">Суши</a></li>
+                                <li class="footer__item"><a href="#">Салаты</a></li>
+                            </ul>
+                            <ul class="footer__column-item">
+                                <li class="footer__item"><a href="#">Закуски</a></li>
+                                <li class="footer__item"><a href="#">Сендвичи</a></li>
+                                <li class="footer__item"><a href="#">Напитки</a></li>
+                                <li class="footer__item"><a href="#">Специи</a></li>
+                                <li class="footer__item"><a href="#">Сладкие роллы</a></li>
+                                <li class="footer__item"><a href="#">Бизнес-ланчи</a></li>
+                            </ul>
+                            <ul class="footer__column-item">
+                                <li class="footer__item"><a href="#">Акции и скидки</a></li>
+                                <li class="footer__item"><a href="#">Условия доставки</a></li>
+                                <li class="footer__item"><a href="#">Вакансии</a></li>
+                                <li class="footer__item"><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__line"></div>
+                    <div class="footer__copyright">
+                        <p class="footer__text">2023 &#169; Takara</p>
+                        <div class="footer__copyLinks">
+                            <a href="#" class="footer__copyItem">Конфиденциальность</a>
+                            <a href="#" class="footer__copyItem">Условия пользования</a>
+                            <a href="#" class="footer__copyItem">Cookies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__socials">
+                    <div class="ourNumber">
+                        <div class="ourNumber__image">
+                            <i class="icon-phone"></i>
+                        </div>
+                        <div class="ourNumber__wrap ourNumber__wrap_footer">
+                            <p class="ourNumber__number">+7 (8425) 460-460</p>
+                            <p class="ourNumber__hours">Ежедневно с 10:00 до 23:00</p>
+                        </div>
+                    </div>
+                    <div class="socialLinks socialLinks_margin">
+                        <a href="#" class="socialLinks__item socialLinks__item_footer">
+                            <i class="icon-tg"></i>
+                        </a>
+                        <a href="#" class="socialLinks__item socialLinks__item_footer">
+                            <i class="icon-ok"></i>
+                        </a>
+                        <a href="#" class="socialLinks__item socialLinks__item_footer">
+                            <i class="icon-vk"></i>
+                        </a>
+                    </div>
+                    <div class="creator">
+                        <p class="creator__text">Разработка сайта</p>
+                        <div class="creator__logo">
+                            <img src="img/spaceapp.svg" alt="spaceapp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
